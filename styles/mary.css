@@ -279,11 +279,11 @@ color: #757575;
 /* footer style */
 
 
-footer{
+.footer{
     background: #FFF8F3;
     display:flex;
-    gap:50px
-
+    gap:50px;
+    padding:150px 100px;
 }
 
 .footer-column-title{
@@ -307,7 +307,7 @@ margin: 20px 0px;
 
 .footer-column{
     width: 50%;
-    padding:150px 100px;
+   
     
 }
 
