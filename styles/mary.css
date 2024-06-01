@@ -219,3 +219,59 @@ main section{
    
     
 }
+
+
+.column-container{
+    display: flex;
+    gap:20px
+}
+
+
+.column-title{
+  
+    font-family: Open Sans;
+    font-size:25px;
+    font-weight: 700;
+   
+    
+}
+
+
+.column-item-title{
+    font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+margin-top:10px;
+margin-bottom: 20px;
+
+}
+
+
+.column-title-institute{
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+margin:10px 0px;
+color:#757575
+
+}
+
+.column-title-description{
+    font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+color: #757575;
+
+
+
+}
+
+.column hr{
+    margin:20px 0px
+}
+
+
+.button-container{
+    text-align: center;
+    margin:50px 0px
+}
