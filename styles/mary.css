@@ -319,7 +319,9 @@ margin-bottom: 20px;
 }
 
 /* form styling */
-
+.contact{
+    padding-right: 150px;
+}
 .contact input[type="text"],input[type="email"],textarea{
     display: block;
     margin-bottom: 20px;
