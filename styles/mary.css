@@ -90,24 +90,33 @@ nav li a{
 
 /* banner related style */
 .header{
-    background-image: url(./images/developer.png);
+    background-image: url("./images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: top left;
+    background-size: contain;
+  
+    
+  
+
 }
+
+
 .banner-container{
   display: flex;
   align-items: center;
   padding:0px 30px 0px 80px;
   justify-content: space-between;
-  background-image: url(./images/header_bg.png);
-  background-repeat: no-repeat;
+  background-image:url("./images/header_bg.png");
+    background-repeat: no-repeat;
+
+ 
   background-position: bottom right;
 }
 
 .banner{
     max-width: 580px;
     padding-left:100px;
-  
+    
 }
 
 .banner-greetings{
@@ -135,6 +144,12 @@ nav li a{
     margin-top:0px
 }
 
+.banner-container div{
+    width: 50%;
+}
+.banner-img img{
+    width:100%;
+}
 /* main-related style */
 main{
   margin:0px auto;
@@ -221,9 +236,13 @@ main section{
 }
 
 /* resume style */
+.about-title{
+    margin-bottom: 50px;
+}
 .column-container{
     display: flex;
-    gap:20px
+    gap:20px;
+    padding:0px 30px
 }
 
 
@@ -273,7 +292,8 @@ color: #757575;
 
 .button-container{
     text-align: center;
-    margin:50px 0px
+    margin:50px 0px;
+   
 }
 
 /* footer style */
@@ -329,4 +349,154 @@ margin-bottom: 20px;
     border:0;
     border-radius: 5px;
    
+}
+
+.hide{
+    display:none
+}
+
+@media screen and (max-width:576px) {
+
+    #what-i-do-description {
+        padding: 30px 20px;
+       
+    }
+    
+    .skill-container,.column-container,.footer,.info-container {
+      
+        flex-direction: column;
+    }
+
+    .footer {
+        
+        padding: 130px 20px;
+        
+    }
+
+    .about {
+       
+        padding: 175px 20px;
+       
+    }
+
+    .info {
+        margin-bottom: 20px;
+       
+    }
+
+    .header {
+        background-image:none;
+        
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        padding: 20px 0px 0px 0px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
+        
+    }
+
+    .banner-container {
+     
+
+        padding: 0px 0px 0px 0px;
+ 
+        background-image:none;
+        
+        flex-direction: column;
+    }
+
+
+
+    .banner-container div {
+        width: 100%;
+    }
+
+    nav li {
+     
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    
+    #what-i-do-description {
+        padding: 30px 20px;
+       
+    }
+    
+    .skill-container,.column-container,.footer,.info-container {
+      
+        flex-direction: column;
+    }
+
+    .footer {
+        
+        padding: 130px 20px;
+        
+    }
+
+    .about {
+       
+        padding: 0px;
+       
+    }
+
+    .info {
+        margin-bottom: 20px;
+       
+    }
+
+    .header {
+        background-image:none;
+        
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        padding: 14px 180px 0px 85px;
+        justify-content: space-between;
+    }
+
+    .banner-container {
+     
+
+        padding: 0px 0px 0px 0px;
+ 
+        background-image:none;
+        
+        flex-direction: column;
+    }
+
+
+
+    .banner-container div {
+        width: 50%;
+    }
+    .banner {
+       
+        padding-left: 0px;
+    }
+    nav li {
+     
+        margin-right: 20px;
+       ;
+    }
+
+    .about-description {
+        
+        padding: 0px 30px;
+    }
 }
