@@ -356,7 +356,7 @@ margin-bottom: 20px;
 }
 
 @media screen and (max-width:576px) {
-
+   
     #what-i-do-description {
         padding: 30px 20px;
        
@@ -426,6 +426,15 @@ margin-bottom: 20px;
      
         margin-right: 0px;
         margin-bottom: 20px;
+    }
+
+    .banner-description {
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        padding-right: 64px;
     }
 }
 
